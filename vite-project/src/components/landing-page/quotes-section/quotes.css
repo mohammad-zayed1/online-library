@@ -1,0 +1,70 @@
+:root {
+    --main-color: #ebecec;
+    --second-color: #4c5c68;
+    --third-color: #bf3c3c;
+  }
+
+  .quotes{
+    
+  }
+  .quotes .quotes-box{
+    background-color: var(--second-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 4rem;
+  }
+
+  .arrow{
+    font-size: 4rem;
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .arrow.right:hover{
+    transform: translateX(5px);
+  }
+  .arrow.left:hover{
+    transform: translateX(-5px);
+  }
+  .quote-box{
+    background-color: var(--third-color);
+    padding: 5rem  8rem;
+    flex-grow:1 ;
+  }
+  .quote-text{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+  }
+  .quote-writer{
+     font-size: 1.5rem;
+     color: var(--main-color);
+     text-align: right;
+     line-height: 2;
+  }
+
+  @media (max-width:576px){
+    .quotes .quotes-box{
+        padding: 4rem 0; 
+    }
+    .arrow{
+        font-size: 3rem;
+        margin:0 1rem;
+    }
+    .quote-box{
+        background-color: var(--third-color);
+        padding: 3rem  3rem;
+        
+      }
+      .quote-text{
+        font-size: 1.7rem;
+        line-height: 2;
+      }
+  }

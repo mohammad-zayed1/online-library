@@ -1,0 +1,33 @@
+.contact-text h3 {
+  font-size: 30px;
+  color: var(--second-color);
+  margin-bottom: 20px;
+}
+.contact-text p {
+  font-size: 15px;
+  color: #bbb;
+}
+.contact-text ul {
+  margin-top: 30px;
+}
+.contact-text ul li {
+  color: #aaa;
+}
+.contact-text ul li .icon {
+  margin-right: 10px;
+  color: var(--second-color);
+}
+.contact-form form .form-control {
+  font-size: 17px;
+}
+.contact-form form textarea {
+  resize: none;
+}
+.contact-form form .submit {
+  background-color: var(--third-color);
+  color: var(--main-color);
+  padding: 10px 0;
+}
+.contact-form form .submit:hover {
+  background-color: #be2c2c;
+}

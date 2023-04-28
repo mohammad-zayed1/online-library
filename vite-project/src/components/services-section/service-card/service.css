@@ -1,0 +1,30 @@
+:root {
+    --main-color: #ebecec;
+    --second-color: #4c5c68;
+    --third-color: #bf3c3c;
+  }
+
+  .sevice-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+  }
+  .sevice-card .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height:10rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--third-color);
+    font-size: 5rem;
+  }
+  .sevice-card p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+  }

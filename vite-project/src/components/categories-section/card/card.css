@@ -1,0 +1,46 @@
+:root {
+  --main-color: #ebecec;
+  --second-color: #4c5c68;
+  --third-color: #bf3c3c;
+}
+
+.card-cat {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-cat img {
+  max-width: 100%;
+  width: 100%;
+}
+.card-cat h2 {
+  font-size: 2rem;
+  width: 100%;
+  padding-left: 1rem;
+  margin: 10px;
+  text-align: left;
+  color: #222;
+}
+.card-cat p {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  margin: 10px;
+  color: #636363;
+  line-height: 2;
+  max-height: 15rem;
+}
+.card-cat a {
+  padding-left: 1rem;
+  margin-top: 60px;
+  text-align: center;
+  display: block;
+  font-size: 1.6rem;
+  color: #bf3c3c;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 1rem;
+}

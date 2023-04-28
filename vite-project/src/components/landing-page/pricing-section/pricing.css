@@ -1,0 +1,40 @@
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-title{
+    font-size: 50px;
+    color: #505D68;
+}
+.card-title small{
+    font-size: 12px;
+}
+
+.list-unstyled li{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.card .btn{
+  padding: 10px;
+  font-size: 15px;
+  
+  background-color: var(--second-color);
+  color: var(--main-color);
+  outline: none;
+  border: none;
+  width: 300px;
+  margin-top: 20px;
+}
+.card .btn:hover{
+    background-color: #444f58;
+    color: var(--main-color);
+}
+
+.card-header h4{
+    font-size: 30px;
+    padding: 10px;
+    color: var(--second-color);
+}

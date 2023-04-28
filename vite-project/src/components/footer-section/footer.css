@@ -1,0 +1,47 @@
+:root {
+    --main-color: #ebecec;
+    --second-color: #4c5c68;
+    --third-color: #bf3c3c;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--second-color);
+    padding: 3rem 0 ;
+    margin-top: 10rem;
+    color: var(--main-color);
+  }
+
+  .footer-logo{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footer-social{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-social > *{
+    margin-right: 1.5rem;
+    transition: 0.3s;
+  }
+  .footer-social > *:hover{
+    transform: translateY(-5px);
+  }
+  .copy{
+    font-size: 1.7rem;
+  }
+  .copy a{
+    color: var(--main-color);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .copy a:hover{
+    opacity: 0.8;
+  }

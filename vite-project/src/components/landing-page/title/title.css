@@ -1,0 +1,14 @@
+:root {
+    --main-color: #ebecec;
+    --second-color: #4c5c68;
+    --third-color: #bf3c3c;
+  }
+  
+  .title {
+    font-size: 5rem;
+    color: var(--second-color);
+    padding: 2rem 0;
+    text-align: center;
+    margin: 50px 0;
+    text-align: center;
+  }
