@@ -1,0 +1,17 @@
+aside{
+    background-color: #EBECEC;
+    padding-top: 15px;
+}
+.sidebar li{
+cursor: pointer;
+transition: 0.3s;
+
+}
+.sidebar li:hover{
+background-color: #d8d8d8;
+}
+
+.add-to-cart {
+    cursor: pointer;
+    
+}

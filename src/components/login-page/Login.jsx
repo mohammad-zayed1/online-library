@@ -25,7 +25,7 @@ export default function Login() {
               <input type="password" id="form1Example23" className="form-control form-control-lg" />
             </div>
   
-            <button type="submit" className="btn btn-primary btn-lg btn-block w-100">Sign in</button>
+            <Link to="/userpage"  type="submit" className="btn btn-primary btn-lg btn-block w-100">Sign in</Link>
             <div className="d-flex flex-column justify-content-around align-items-center mb-4 mt-4">
                <p>Not A Member ? <Link to="/register">Sign Up</Link></p>
               
