@@ -9,7 +9,7 @@ export default function Book() {
       }}
     >
       <div className="img-book bg-danger p-3 d-flex justify-content-center align-items-center">
-        <img src="../../../public/img/book.png" alt="book" />
+        <img src="./img/book.png" alt="book" />
       </div>
       <div className="book-info d-flex flex-column p-2">
         <div className="title-book mb-2">
